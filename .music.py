@@ -11,11 +11,11 @@ if out.find('foobnix') != -1:
 
 	if out == 'STOP':
 		print('No music is playing')
-	if out == 'PLAY':
+	elif out == 'PLAY':
 		out = subprocess.check_output(['foobnix', '--now-playing'])
 		out = str(out)[2:-3]
 		print('►  ' + out)
-	if out == 'PAUSE':
+	elif out == 'PAUSE':
 		out = subprocess.check_output(['foobnix', '--now-playing'])
 		out = str(out)[2:-3]
 		print('▍▍  ' + out)
