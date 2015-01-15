@@ -62,13 +62,13 @@ ${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top name 4}${alignr}
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top name 5}${alignr}${top cpu 5}%
 
 # Memory
-${offset 90}${font Ubuntu:size=10,weight:bold}${color2}Memory                                          $memperc%
+${offset 90}${font Ubuntu:size=10,weight:bold}${color2}Memory${alignr}$memperc%
 ${offset 100}${membar 5,248}
-${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 1}${alignr}${top_mem mem 1}%
-${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 2}${alignr}${top_mem mem 2}%
-${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 3}${alignr}${top_mem mem 3}%
-${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 4}${alignr}${top_mem mem 4}%
-${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 4}${alignr}${top_mem mem 5}%
+${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 1}${alignr}${top_mem mem_res 1}
+${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 2}${alignr}${top_mem mem_res 2}
+${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 3}${alignr}${top_mem mem_res 3}
+${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 4}${alignr}${top_mem mem_res 4}
+${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 4}${alignr}${top_mem mem_res 5}
 
 ${offset 90}${font Ubuntu:size=10,weight:bold}${color2}        Network
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color1}      Download:    ${downspeed wlp3s0}
