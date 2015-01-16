@@ -49,7 +49,7 @@ ${offset 15}${font Ubuntu:size=10,weight:normal}${color1}CPU temp:  ${execi 2 se
 
 # Music
 ${offset 80}${font Ubuntu:size=10,weight:bold}${color2}Music
-${offset 80}${font Droid Sans Fallback:size=10}${color1}${exec python3 ~/.music.py}
+${offset 80}${font Droid Sans Fallback:size=10}${color1}${exec python ~/.music.py}
 
 # CPU
 ${voffset -30}${offset 150}${cpugraph 40,200 61AAF6 61AAF6z}${voffset -25}
@@ -62,7 +62,7 @@ ${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top name 4}${alignr}
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top name 5}${alignr}${top cpu 5}%
 
 # Memory
-${offset 90}${font Ubuntu:size=10,weight:bold}${color2}Memory${alignr}$memperc%
+${offset 80}${font Ubuntu:size=10,weight:bold}${color2}Memory $memperc%${alignr}$mem
 ${offset 100}${membar 5,248}
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 1}${alignr}${top_mem mem_res 1}
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 2}${alignr}${top_mem mem_res 2}
@@ -70,6 +70,6 @@ ${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 3}${ali
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 4}${alignr}${top_mem mem_res 4}
 ${offset 105}${font Ubuntu:size=10,weight:normal}${color1}${top_mem name 4}${alignr}${top_mem mem_res 5}
 
-${offset 90}${font Ubuntu:size=10,weight:bold}${color2}        Network
-${offset 105}${font Ubuntu:size=10,weight:normal}${color1}      Download:    ${downspeed wlp3s0}
-${offset 105}${font Ubuntu:size=10,weight:normal}${color1}      Upload:           ${upspeed wlp3s0}
+${offset 80}${font Ubuntu:size=10,weight:bold}${color2}Network
+${offset 105}${font Ubuntu:size=10,weight:normal}${color1}Download:      ${downspeed wlp3s0}
+${offset 105}${font Ubuntu:size=10,weight:normal}${color1}Upload:             ${upspeed wlp3s0}
