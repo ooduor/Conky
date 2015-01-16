@@ -49,7 +49,7 @@ ${offset 15}${font Ubuntu:size=10,weight:normal}${color1}CPU temp:  ${execi 2 se
 
 # Music
 ${offset 80}${font Ubuntu:size=10,weight:bold}${color2}Music
-${offset 80}${font Droid Sans Fallback:size=10}${color1}${exec python ~/.music.py}
+${offset 80}${font Droid Sans Fallback:size=10}${color1}${exec python3 ~/.music.py}
 
 # CPU
 ${voffset -30}${offset 150}${cpugraph 40,200 61AAF6 61AAF6z}${voffset -25}
