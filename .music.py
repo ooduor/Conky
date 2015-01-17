@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import subprocess, os, time
 
 out = subprocess.check_output(['ps', '-x'])
