@@ -2,4 +2,4 @@
 My conky config + music script
 
 # Screenshot
-<img src='scrot.png' width='479px'>
+<img src='scrot.png' width='385px'>
